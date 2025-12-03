@@ -338,6 +338,8 @@ This Agent assists customers with everyday banking tasks such as balance inquiri
 What is the balance of my account IBAN DE89320895326389021994
 ```
 
+Note: You are each assigned to a unique account number to avoid interfering with each other's transactions. Please find your assigned account number in the [assigned_accounts.csv](../assigned_accounts.csv) file. Replace the IBAN account number with your own to test the agent.
+
 - Click on **Deploy** to deploy the agent
 
   ![Deploy](./teller_ag_imgs/i13.png)
@@ -402,11 +404,11 @@ This Agent acts as the trusted expert on all banking products and services offer
 
   ![Upload Files](./prod_info_ag_imgs/i12.png)
 
-- Upload the listed documents below (may need to be provided by instructor if you don't have access) and click **Next**
+- Upload the listed documents below from the [Knowledge Base](../Knowledge%20Base/) folder and click **Next**
 
-  [list-of-prices-and-Services.pdf](./prod_info_ag_imgs/list-of-prices-and-Services-deutsche-bank-ag.pdf)  
-  [ser-terms-conditions-debit-cards.pdf](./prod_info_ag_imgs/ser-terms-conditions-debit-cards.pdf)  
-  [Overdraft Services FAQ.docx](./prod_info_ag_imgs/Overdraft%20Services%20FAQ.docx)
+  [list-of-prices-and-Services.pdf](../Knowledge%20Base/list-of-prices-and-Services.pdf)  
+  [ser-terms-conditions-debit-cards.pdf](../Knowledge%20Base/ser-terms-conditions-debit-cards.pdf)  
+  [Overdraft Services FAQ.docx](../Knowledge%20Base/Overdraft%20Services%20FAQ.docx)
 
   
   ![Upload Documents](./prod_info_ag_imgs/i11.png)
