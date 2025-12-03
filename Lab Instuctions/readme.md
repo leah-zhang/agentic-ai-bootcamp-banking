@@ -154,13 +154,9 @@ This Agent handles special banking operations for GFM Bank that require elevated
 
   ![Add Tool](./backoffice_ag_imgs/i3.png)
 
-- Click on **Add from file or MCP server**.
+- Click on **OpenAPI**.
 
   ![Import file](./backoffice_ag_imgs/i4.png)
-
-- Click on **Import from file**
-
-  ![Import from file](./backoffice_ag_imgs/i16.png)
 
 - Upload the `bank.json` API spec provided by the instructor.
 
@@ -200,10 +196,11 @@ This Agent handles special banking operations for GFM Bank that require elevated
   
   Maintain a professional tone with appropriate formality for a banking representative with elevated privileges.
   ```
-
-- Since this agent will be a collaborator agent and will be invoked by GFM Bank Orchestrator, we don't want to enable it for direct chat on the chat homepage. Disable the **Show agent** feature in the **Channels** section.
-
   ![Instructions](./backoffice_ag_imgs/i11.png)
+
+- Since this agent will be a collaborator agent and will be invoked by GFM Bank Orchestrator, we don't want to enable it for direct chat on the chat homepage. Disable the **Home Page** toggle in the **Channels** section.
+
+  ![Instructions](./backoffice_ag_imgs/i11a.png)
 
 #### Test and deploy the GFM Back Office Agent
 
@@ -268,13 +265,9 @@ This Agent assists customers with everyday banking tasks such as balance inquiri
 
   ![Add Tool](./teller_ag_imgs/i6.png)
 
-- Click on **Add from file or MCP Server**.
+- Click on **OpenAPI**.
 
   ![Import](./teller_ag_imgs/i7.png)
-
-- Click on **Import from file**.
-
-  ![Import from file](./teller_ag_imgs/i21.png)
 
 - Upload the `bank.json` API spec provided by the instructor. Once the file is uploaded, select **Next**.
   
@@ -334,7 +327,7 @@ This Agent assists customers with everyday banking tasks such as balance inquiri
   | May 13     | Purchase  | -30 EUR | Grocery Store        |
   ```
 
-- Since this agent will be a collaborator agent and will be invoked by GFM Bank Orchestrator Agent, we don't want to enable it for direct chat on the chat homepage. Disable the **Show agent** feature.
+- Since this agent will be a collaborator agent and will be invoked by GFM Bank Orchestrator Agent, we don't want to enable it for direct chat on the chat homepage. Disable the **Home page** toggle.
 
   ![Show agent toggle](./teller_ag_imgs/i14.png)
 
@@ -397,9 +390,13 @@ This Agent acts as the trusted expert on all banking products and services offer
 
   ![Select model](./prod_info_ag_imgs/i14.png)
 
-- In the **Knowledge source** section. click on **Choose knowledge**.
+- In the **Knowledge source** section. click on **Add source**.
 
   ![Choose knowledge](./prod_info_ag_imgs/i13.png)
+
+- Choose **New knowledge**
+
+  ![New knowledge](./prod_info_ag_imgs/i13a.png)
 
 - Click on **Upload files** and then **Next**.
 
@@ -413,6 +410,12 @@ This Agent acts as the trusted expert on all banking products and services offer
 
   
   ![Upload Documents](./prod_info_ag_imgs/i11.png)
+
+- In the **Name** section, add the name
+
+  ```
+  GFM Product Information
+  ```
 
 - In the **Description** section, add the following, then click **Save**:
 
@@ -473,9 +476,12 @@ This Agent acts as the trusted expert on all banking products and services offer
   Use plain language, analogies, or step-by-step instructions.
 
   ```
-- Since this agent will be a collaborator agent and will be invoked by GFM Bank Orchestrator, we don't want to enable it for direct chat on the chat homepage. Disable the **Show agent** toggle
 
   ![Disable toggle](./prod_info_ag_imgs/i5.png)
+- Since this agent will be a collaborator agent and will be invoked by GFM Bank Orchestrator, we don't want to enable it for direct chat on the chat homepage. Disable the **Home page** toggle
+
+
+  ![Disable toggle](./prod_info_ag_imgs/i5a.png)
 
 #### Test the and deploy GFM Product Information Agent
 

@@ -8,7 +8,7 @@
   },
   "servers": [
     {
-      "url": "https://bank-backoffice.22kg82qdk85d.us-south.codeengine.appdomain.cloud",
+      "url": "https://bank-backoffice.23fv7n9qj80p.us-south.codeengine.appdomain.cloud",
       "description": "Production Endpoint"
     }
   ],
