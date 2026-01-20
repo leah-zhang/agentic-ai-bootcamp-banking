@@ -93,6 +93,17 @@ In this lab, you'll build a complete Agentic AI solution for GFM Bank using wats
 - Basic understanding of banking operations (e.g., transfer, balance check, overdraft...)
 - Familiarity with AI agent concepts (e.g., instructions, tools, collaborators...)
 
+### Downloading required files.
+
+Throughout the lab, you will be asked to upload or use various files. These files are located in this repo and can be downloaded directly.
+
+1. Navigate to the file. For example, in the first agent, you will be asked to upload the [bank.json](./bank.json) OpenAPI spec.
+
+2. Click download (top right corner of screen)
+
+![download image](images/download.png) 
+
+
 ### Lab Steps Overview
 
 1. Connect to **watsonx Orchestrate**
