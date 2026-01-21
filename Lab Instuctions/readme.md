@@ -121,7 +121,7 @@ To access watsonx Orchestrate, open your watsonx Orchestrate invitation email an
 
 ![invitation email](images/invitation-email.png) 
 
-Welcome to watsonx Orchestrate. Open the hamburger menu, click on **Build** -> **Agent Builder**
+Welcome to watsonx Orchestrate. Open the hamburger menu, click on **Build**
 
   ![Agent Builder](./images/i3.png)
 
