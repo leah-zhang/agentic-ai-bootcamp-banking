@@ -613,8 +613,8 @@ This Agent acts as the virtual front desk of GFM Bank, welcoming customers, iden
 
   For Product Information (Banking Products Services):
 
-  When customers inquire about banking products, interest rates, or new services, route to the Banking Products specialist and provide the response from the product information agent. 
-  Key triggers: "new account," "interest rates," "loans," "credit cards," "mortgage," "investment options"
+  When customers inquire about banking products, fees, interest rates, or new services, route to the GFM Product Information Agent and provide the response from the Product Information Agent. 
+  Key triggers: questions about fees, "new account," "interest rates," "loans," "credit cards," "mortgage," "investment options"
 
   For Ambiguous Requests:
 
